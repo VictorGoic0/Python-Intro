@@ -48,3 +48,7 @@ waypoints[0]["name"] = "not a real place"
 for coordinate in waypoints:
     for k, v in coordinate.items():
         print(v)
+
+# If you want all the entries and not just values:
+# for coordinate in waypoints:
+#    print(coordinate.items())
